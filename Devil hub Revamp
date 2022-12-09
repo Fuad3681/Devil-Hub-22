@@ -1,0 +1,42 @@
+print("hi")
+
+-- Library
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+
+-- Create Window
+local Window = Library:Create("Showcase","Fencing")
+
+-- Tabs
+local Tab1 = Window:Tab("Hubs",true)
+local Tab2 = Window:Tab("Other Scripts",true)
+local Tab3 = Window:Tab("Credits",true)
+
+-- Label
+Tab1:Label("Hubs")
+Tab2Label("Other scripts")
+Tab3Label("Credits to Everyone")
+
+-- Button
+Tab1:Button("Brookheaven",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+
+Tab1:Button("Keyboard Gui",function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+     end)
+
+Tab2:Button("Snake fe Script",function()
+    loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+end)
+
+
+Tab1:Button("Doors But Bad",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0doorsbutbad", true))()
+end)
+
+Tab1:Button("Starving Artist (Donation Game)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
+
